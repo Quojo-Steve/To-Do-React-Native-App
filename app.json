@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "to-do",
+    "name": "To-Do",
     "slug": "to-do",
     "version": "1.0.0",
+    "scheme": "to-do",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,7 +25,10 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
